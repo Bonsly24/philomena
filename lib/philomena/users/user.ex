@@ -360,7 +360,7 @@ defmodule Philomena.Users.User do
     ])
     |> TagList.propagate_tag_list(:watched_tag_list, :watched_tag_ids)
     |> validate_inclusion(:scale_large_images, ["false", "partscaled", "true"])
-    |> validate_inclusion(:theme, ~W(default dark light red))
+    |> validate_inclusion(:theme, ~W(default dark light red fuchsia green orange))
     |> validate_inclusion(:images_per_page, 15..50)
     |> validate_inclusion(:comments_per_page, 15..100)
     |> Search.validate_search(:watched_images_query_str, user, true)
