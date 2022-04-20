@@ -35,7 +35,7 @@ defmodule Philomena.Adverts do
 
   defp sfw?(image) do
     image_tags = MapSet.new(image.tags |> Enum.map(& &1.name))
-    sfw_tags = MapSet.new(["safe", "suggestive"])
+    sfw_tags = MapSet.new(["safe", "lewd"])
     intersect = MapSet.intersection(image_tags, sfw_tags)
 
     MapSet.size(intersect) > 0

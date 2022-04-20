@@ -1,0 +1,169 @@
+{
+  "tabs": [
+    "Main",
+    "Shorthands A",
+    "B",
+    "Shipping Touma",
+    "Misaka",
+    "Misc",
+    "Novels GT",
+    "NT",
+    "OT"
+    "Manga Railgun",
+    "Index",
+    "Accelerator",
+    "Idol Accelerator",
+    "Anime Index S1",
+    "Index S2",
+    "Index S3",
+    "Railgun S1",
+    "Railgun S2",
+    "Railgun S3",
+    "Accelerator",
+    
+  ],
+  "tab_modes": {
+    "Main": "default",
+    "Species": "default",
+    "Shorthands A": "shorthand",
+    "B": "shorthand",
+    "Shipping Touma": "shipping",
+    "Misaka": "shipping",
+    "Misc": "shipping",
+    "Novels GT": "season",
+    "NT": "season",
+    "OT": "season",
+    "Manga Railgun": "season",
+    "Index": "season",
+    "Accelerator": "season",
+    "Idol Accelerator": "season",
+    "Anime Index S1": "season",
+    "Index S2": "season",
+    "Index S3": "season",
+    "Railgun S1": "season",
+    "Railgun S2": "season",
+    "Railgun S3": "season",
+    "Accelerator": "season",
+  },
+  "Main": {
+    "Ratings": [
+      "safe",
+      "lewd",
+      "questionable",
+      "explicit",
+      "semi-grimdark",
+      "grimdark",
+      "grotesque"
+    ],
+    "General Spoilers": [
+      "spoiler:comic",
+      "spoiler:g5",
+      "spoiler:pony life",
+      "spoilers for another series"
+    ],
+    "Species": [
+      "anthro",
+      "equestria girls",
+      "human",
+      "humanized",
+      "pony",
+      "earth pony",
+      "pegasus",
+      "unicorn",
+      "alicorn"
+    ],
+    "Often Forgotten": [
+      "solo",
+      "2d",
+      "3d",
+      "screencap",
+      "image macro",
+      "monochrome",
+      "oc",
+      "photo",
+      "Tag original characters oc:name"
+    ]
+  },
+  "Shorthands A": [
+    ["Main Cast", [
+      ["rg", "Railgang"],
+      ["kt", "Kamijou Touma"],
+      ["mm", "Misaka Mikoto"],
+      ["IX", "Index insert rest of name here"],
+      ["ry", "rarity"],
+      ["aj", "applejack"],
+      ["fs", "fluttershy"],
+      ["pp", "pinkie pie"],
+      ["sp", "spike"]
+    ]],
+    ["Secondary Cast", [
+      ["cmc", "cutie mark crusaders"],
+      ["ab", "apple bloom"],
+      ["sl", "scootaloo"],
+      ["sb", "sweetie belle"],
+      ["tia", "princess celestia"],
+      ["luna", "princess luna"],
+      ["pcd", "princess cadance"],
+      ["sa", "shining armor"],
+      ["sg", "starlight glimmer"]
+    ]],
+    ["More Ponies", [
+      ["tx", "trixie"],
+      ["sus", "sunset shimmer"],
+      ["sombra", "king sombra"],
+      ["qc", "queen chrysalis"],
+      ["dc", "discord"],
+      ["nmm", "nightmare moon"],
+      ["sf", "spitfire"],
+      ["sn", "soarin'"],
+      ["ld", "lightning dust"]
+    ]],
+    ["More Apples", [
+      ["bm", "big macintosh"],
+      ["gs", "granny smith"],
+      ["bb", "braeburn"],
+      ["bs", "babs seed"]
+    ]],
+    ["Fillies and Colts", [
+      ["ss", "silver spoon"],
+      ["dt", "diamond tiara"],
+      ["pfh", "princess flurry heart"]
+    ]]
+  ],
+  "B": [
+    ["Background Ponies", [
+      ["dh", "derpy hooves"],
+      ["dw", "doctor whooves"],
+      ["cgt", "colgate"],
+      ["bon", "bon bon"],
+      ["oct", "octavia melody"],
+      ["dj", "vinyl scratch"],
+      ["bp", "berry punch"],
+      ["pbb", "prince blueblood"]
+    ]],
+    ["Student Six", [
+      ["s6", "student six"],
+      ["ga", "gallus"],
+      ["ols", "ocellus"],
+      ["snb", "sandbar"],
+      ["svs", "silverstream"],
+      ["sm", "smolder"],
+      ["yn", "yona"]
+    ]],
+    ["Uncategorized", [
+      ["maud", "maud pie"],
+      ["coco", "coco pommel"],
+      ["suri", "suri polomare"],
+      ["rg", "royal guard"],
+      ["za", "zecora"],
+      ["mm", "mayor mare"],
+      ["pdp", "pinkamena diane pie"],
+      ["owol", "owlowiscious"],
+      ["opal", "opalescence"]
+    ]],
+    ["Other Things", [
+      ["cm", "cutie mark"],
+      ["eoh", "elements of harmony"],
+      ["nmn", "nightmare night"]
+    ]]
+  ],
