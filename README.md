@@ -91,7 +91,7 @@ Comment the entrypoint line in `docker-compose.yml` (add the # again). Then star
 
 ## Customize
 To customize your booru, find and replace all occurences of the following words with your desired content
-- `YourBooruName`
+- `Misakabooru`
 - `YourBooruDescription` (sample: `Samplebooru is a linear imagebooru which lets you share, find and discover new art and media surrounding samples.`
 - `SomeRandomSampleSecret1234`
 - Rule names that are selectable when reporting violations can be adjusted in `lib/philomena_web/views/report_view.ex`
