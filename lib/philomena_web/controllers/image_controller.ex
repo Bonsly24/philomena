@@ -28,7 +28,7 @@ defmodule PhilomenaWeb.ImageController do
 
   plug PhilomenaWeb.FilterBannedUsersPlug when action in [:new, :create]
   plug PhilomenaWeb.UserAttributionPlug when action in [:create]
-  plug PhilomenaWeb.CaptchaPlug when action in [:create]
+    # plug PhilomenaWeb.CaptchaPlug when action in [:create]
 
   plug PhilomenaWeb.ScraperPlug,
        [params_name: "image", params_key: "image"] when action in [:create]
