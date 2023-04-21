@@ -6,9 +6,7 @@
           h4.remove-top-margin Featured Image
           = render PhilomenaWeb.ImageView, "_image_box.html", image: @featured_image, size: :medium, conn: @conn
       .block.block--fixed.block--fixed--sub.block--success.center.hide-mobile
-        ' Enjoy the site?
-        a href="/pages/donations"
-          ' Donate to help keep it going!
+        ' Everything's WIP and subject to change
       .block.block--fixed.block--fixed--sub.center.hide-mobile
         ' Issues? Want to chat?
         a href="/pages/contact" Contact us!
