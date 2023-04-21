@@ -1,0 +1,112 @@
+{
+  "tabs": [
+    "Main",
+    "Shorthands",
+    "Shipping Touma",
+    "Misaka",
+    "Misc",
+    "Novels GT",
+    "NT",
+    "OT"
+    "Manga Railgun",
+    "Index",
+    "Accelerator",
+    "Idol Accelerator",
+    "Anime Index S1",
+    "Index S2",
+    "Index S3",
+    "Railgun S1",
+    "Railgun S2",
+    "Railgun S3",
+    "Accelerator",
+    
+  ],
+  "tab_modes": {
+    "Main": "default",
+    "Shorthands": "shorthand",
+    "Shipping Touma": "shipping",
+    "Misaka": "shipping",
+    "Misc": "shipping",
+    "Novels GT": "season",
+    "NT": "season",
+    "OT": "season",
+    "Manga Railgun": "season",
+    "Index": "season",
+    "Accelerator": "season",
+    "Idol Accelerator": "season",
+    "Anime Index S1": "season",
+    "Index S2": "season",
+    "Index S3": "season",
+    "Railgun S1": "season",
+    "Railgun S2": "season",
+    "Railgun S3": "season",
+    "Accelerator": "season",
+  },
+  "Main": {
+    "Ratings": [
+      "safe",
+      "lewd",
+      "risque",
+	  "mature",
+      "explicit",
+      "semi-grimdark",
+      "grimdark",
+      "grotesque"
+    ],
+    "Often Forgotten": [
+      "solo",
+      "2d",
+      "3d",
+      "screencap",
+      "image macro",
+      "monochrome",
+      "oc",
+      "photo",
+      "Tag original characters oc:name"
+    ]
+  },
+  "Shorthands": [
+    ["Main Cast", [
+      ["rg", "Railgang"],
+      ["kt", "Kamijou Touma"],
+      ["mm", "Misaka Mikoto"],
+      ["IX", "Index Librorum Prohibitorum"],
+      ["ac", "Accelerator"],
+      ["hz", "Hamazura Shiage"],
+      ["SK", "Shirai Kuroko"],
+      ["GK", "Uiharu Kazari"],
+      ["SR", "Saten Ruiko"]
+    ]],
+  ],
+  "Shipping Touma": {
+    "implying": [
+      "shipping",
+      "Kamijou Touma"
+    ],
+    "not_implying": [
+
+    ]
+  },
+  "Misaka": {
+    "implying": [
+      "shipping",
+      "Misaka Mikoto"
+    ],
+    "not_implying": [
+
+    ]
+  },
+  "misc": {
+    "implying": [
+      "shipping"
+    ],
+    "not_implying": [
+      "Misaka Mikoto",
+      "Kamijou Touma",
+      "rarity",
+      "applejack",
+      "fluttershy",
+      "pinkie pie"
+    ]
+  },
+}
