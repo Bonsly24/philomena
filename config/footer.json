@@ -88,11 +88,6 @@
     {
       "title": "About",
       "url": "/pages/about"
-    },
-    {
-      "title": "Twitter",
-      "url": "https://twitter.com/Derpibooru",
-      "target": "_blank"
     }
   ]
 }
