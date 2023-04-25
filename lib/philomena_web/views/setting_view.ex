@@ -13,7 +13,7 @@ defmodule PhilomenaWeb.SettingView do
       [key: "Red", value: "red", data: [theme_path: Routes.static_path(conn, "/css/red.css")]],
       [key: "Green", value: "green", data: [theme_path: Routes.static_path(conn, "/css/green.css")]],
       [key: "Orange", value: "orange", data: [theme_path: Routes.static_path(conn, "/css/orange.css")]],
-      [key: "Fuchsia", value: "fuchsia", data: [theme_path: Routes.static_path(conn, "/css/fuchsia.css")]]
+      [key: "Fuchsia", value: "fuchsia", data: [theme_path: Routes.static_path(conn, "/css/fuchsia.css")]],
     ]
   end
 
