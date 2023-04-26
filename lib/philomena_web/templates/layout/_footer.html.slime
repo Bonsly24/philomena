@@ -17,7 +17,6 @@ footer#footer
   #serving_info
     ' Idol Theory calling on the power of
     a> href="https://github.com/philomena-dev/philomena" philomena
-	' bestowed this webpage upon you in
-    | (
+    | bestowed this webpage upon you in (
     = render_time(@conn)
     | ms)
