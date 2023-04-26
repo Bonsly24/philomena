@@ -33,7 +33,7 @@ defmodule PhilomenaWeb.UserAttributionView do
     hash =
       key
       |> Integer.to_string(16)
-      |> String.pad_leading(5, "0")
+      |> String.pad_trailing(5, "0")
 
     case not is_nil(object.user) and reveal_anon? do
       true -> "#{object.user.name} (##{hash}, hidden)"
