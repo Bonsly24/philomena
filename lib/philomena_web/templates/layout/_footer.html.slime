@@ -15,7 +15,7 @@ footer#footer
           br
 
   #serving_info
-    ' Idol Theory based on
+    ' Idol Theory calling on the power of
     a> href="https://github.com/philomena-dev/philomena" philomena
 	' bestowed this webpage upon you in
     | (
