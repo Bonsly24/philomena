@@ -28,11 +28,11 @@ defmodule PhilomenaWeb.UserAttributionView do
     id = Attribution.object_identifier(object)
     user_id = Attribution.best_user_identifier(object)
 
-    {:ok, <<key::size(16)>>} = :pbkdf2.pbkdf2(:sha256, id <> user_id, salt, 100, 2)
+    {:ok, <<key::size(20)>>} = :pbkdf2.pbkdf2(:sha256, id <> user_id, salt, 100, 2)
 
     hash =
       key
-      |> Integer.to_string(16)
+      |> Integer.to_string(20)
       |> String.pad_leading(5, "0")
 
     case not is_nil(object.user) and reveal_anon? do
