@@ -15,8 +15,9 @@ footer#footer
           br
 
   #serving_info
-    ' Powered by
+    ' Idol Theory based on
     a> href="https://github.com/philomena-dev/philomena" philomena
+	' bestowed this webpage upon you in
     | (
     = render_time(@conn)
     | ms)
